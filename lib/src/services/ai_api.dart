@@ -6,7 +6,7 @@ import 'package:http_parser/http_parser.dart';
 import 'package:smart_piggy/src/models/piggy_model.dart';
 
 class AiAPI {
-  final String _apiKey = "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";
+  final String _apiKey = "YOUR_API_KEY";
   final String _whisperUrl =
       "https://api.groq.com/openai/v1/audio/transcriptions";
   final String _groqChatUrl = "https://api.groq.com/openai/v1/chat/completions";
